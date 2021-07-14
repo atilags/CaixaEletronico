@@ -7,11 +7,11 @@ import modelos.excecoes.ExcecoesPadrao;
 
 public abstract class ContaBancaria {
 	
-	Integer numeroConta;
-	String titular;
-	Double saldo;
-	Double limiteSaque;
-	Date ultimoSaque;
+	private Integer numeroConta;
+	private String titular;
+	protected Double saldo;
+	protected Double limiteSaque;
+	private Date ultimoSaque;
 	
 	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 	
