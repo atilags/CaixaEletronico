@@ -118,7 +118,7 @@ public class Programa {
 		}
 		catch(RuntimeException e) {
 			System.out.println();
-			System.out.println("Algum erro inexperado ocorreu, sento muito pelo transtorno.");
+			System.out.println("Algum erro inexperado ocorreu, sinto muito pelo transtorno.");
 		}
 		
 		tec.close();

@@ -8,4 +8,4 @@ No momento, a unica diferença é que a Pessoa Física é cobrada uma taxa de 5 
 O caixa eletrônico possui as opções de: Saldo, Saque, Deposito, Data do ultimo Saque e Sair.
 Não é possivel um saque maior que o saldo atual ou maior que o limite de saque estipulado. Caso isso ocorra, o programa irá emitir um aviso e será encerrado.
 
-Foi utilizado: for, for each, list, arraylist, switch, do while, try catch, date e simpledateformat, orientação a objetos, herança, polimorfismo, encapsulamento e upcasting.
+Foi utilizado: for, for each, list, arraylist, switch, do while, try catch, date, simpledateformat, orientação a objetos, herança, polimorfismo, encapsulamento e upcasting.
