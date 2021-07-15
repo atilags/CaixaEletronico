@@ -13,11 +13,9 @@ public class PessoaJuridica extends ContaBancaria{
 	@Override
 	public void saque(Double valorSaque) throws ExcecoesPadrao {
 		if(valorSaque>limiteSaque) {
-			System.out.println();
 			throw new ExcecoesPadrao("O valor inserido é maior que o limite permitido.");
 		}
 		if(valorSaque>saldo) {
-			System.out.println();
 			throw new ExcecoesPadrao("Saldo insuficiente.");
 		}
 		
